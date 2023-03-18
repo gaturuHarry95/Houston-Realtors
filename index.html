@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston realtors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="heading">
+        <nav>
+           <a href="#home"> <li>Home</li></a>
+            <a href="#aboutus"><li>About us</li></a>
+            <a href="#our services"><li>Our Services</li></a>
+            <a href="#contact us"><li>Contact us</li></a>
+        </nav>
+    </header>
+    <h1 id="home">We Are Houseton Realtors</h1>
+    <main>
+        <section>
+        <div id="aboutus">
+        <h2>About us</h2>
+        <p>Houseton Realtors is a licensed member of The Kenya Association of Real Estate Agents offering property sales, 
+            rentals and property management services in the leafy suburbs of Thika and its environs.</p>
+            </div>
+        </section>
+        <section >
+            <h2 id="our services">Our Services</h2>
+            <div class="services">
+            <h3>Property Management</h3>
+            <p>Our property management services are for the discerning owner who wants to hand over the time-consuming job of managing both a tenant and
+                 maintaining the property. Our management system offers different options to make sure we cover all your needs.</p>
+                </div>
+                <div class="services">
+                 <h3>Property Letting</h3>
+                 <p>Besides linking potential tenants in need of vacant houses to rent, we screen tenants before letting them in the apartments.
+                    we process and administer tenancy service contracts to ensure cooperation during the stay period till when a tenant is moving out of the premises with ease 
+                 </p>
+                </div>
+                <div class="services">
+                 <h3>Property Maintenance</h3>
+                 <p>We ensure that the premises are in the best conditions.We are responsible for the maintenance, and repair needs of the premises.</p>
+                </div>
+        </section>
+        <section >
+            <div class="sign up">
+            <h4>
+               Sign up here to get started: 
+            </h4>
+            <form action="index.html">
+                <fieldset>
+                  <label for="firstname">Enter your Firstname:</label>
+                  <input type="text" id="firstname" name="firstname" placeholder="John" required><br><br>
+              
+                  <label for="lastname">Enter Your Lastname:</label>
+                  <input type="text" id="lastname" name="lastname" placeholder="Doe" required><br><br>
+              
+                    <label for="email">Enter Your Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="password">Create your Password:</label>
+                    <input type="password" name="password" id="password" pattern="[a-z0-5{8}]" required><br><br>
+              
+                    <label for="age">Input your age (years):</label>
+                    <input type="number" id="age" name="age" min="18" max="100"><br><br>
+        
+                    <label for="photo">Upload Your Photo:</label>
+                    <input type="file" name="file"><br><br>
+                    <button>Sign up</button>
+                  </div>
+                 </fieldset>
+                <label for="sign in">Already have an account?</label>
+                <button>Sign in</button> 
+
+              <p>Fill out the form  to explore options for your next stay.</p>
+        <fieldset>
+            <label for="housesize">What house size are you looking to rent?</label>
+            <select name="housesize" id="housesize">
+                <option value="bedsitter">Bedsitter</option>
+                <option value="onebedroom">Onebedroom</option>
+                <option value="twobedroom">Twobedroom</option>
+                <option value="threebedroom">Threebedroom</option>
+                <option value="fourbedroom">Fourbedroom</option>
+            </select><br><br>
+            <label for="location">Where is the Property located?</label>
+            <input type="text" id="location" name="location"><br><br>
+            <label for="apartmentname">What is the name of the Apartment?</label>
+            <input type="text" name="apartmentname" id="aparmentname"><br><br>
+            <label for="housenumber">What is the House number?</label>
+            <input type="text" id="housenumber" name="housenumber">
+            
+        </fieldset><br>
+        <fieldset >
+
+        <div class="condition">
+            <label for="housecondition">Is the house in  good condition?</label>
+          <select name="housecondition" id="housecondition">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select><br>
+          <label for="defect">If not,please specify the defect/damage:</label><br>
+          <input type="checkbox" id="painting" name="painting">
+          <label for="painting">Requires Painting</label><br>
+          <input type="checkbox" id="plumbing" name="plumbing">
+          <label for="plumbing">Plumbing</label><br>
+          <input type="checkbox" id="missingpanes" name="missingpanes">
+          <label for="missingpanes">Missing Panes</label><br>
+          <input type="checkbox" id="electricissue" name="electricissue">
+          <label for="electricissue">Electric Issue</label><br><br>
+          <label for="any other">Any Other Defect:</label>
+          <textarea id="any other" name="any other" rows="5" cols="30" ></textarea>
+          </div>
+
+          
+        </fieldset>
+
+           </form>
+        </section>
+       
+        <section>
+            <h2 id="contact us">Contact us </h2>
+            <p>+254718818638</p>
+            <p>houstonrealators.com</p>
+        </section>
+    </main>
+    
+</body>
+</html>

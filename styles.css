@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;   
+}
+
+#home{
+    font-size: 4em;
+    height: 800px;
+    background-image: url(photos/top-real-estate-companies-in-kenya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    padding-top: 300px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #DAA520;
+  
+}
+
+
+
+
+body{
+    width:75%;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.heading nav li{
+    list-style: none;
+    display: inline;
+    padding :80px;
+    font-size: 20px; 
+    background-color: #696969;
+  
+}
+
+#aboutus{
+   
+    position: relative;
+}
+
+#aboutus h2{
+    background-color:#ace600;
+    font-size: 60px;
+    
+}
+#aboutus p{
+    font-size: 16px;
+    position: sticky;
+   
+}
+a:hover{
+    background: #C0D6DF;
+    color: #FFF;
+  }
+
+
+h1,h2,h3{
+    font-weight:bold;
+}
+
+.services {
+    display: inline-block;
+    width: 300px; 
+    height: 200px;
+    padding:0 50px;
+  }
+  
+
+  
+   fieldset{
+    border:3px solid #e65c00;
+    border-radius: 10px;
+  }
+
+.sign{
+    padding-bottom: 20px;
+}
+
